@@ -1,0 +1,34 @@
+.calculator {
+  // text-align: center;
+  max-width: 432px;
+  margin-top: 50px;
+}
+
+.col-3, .col-6, .col-9, .col-12 {
+  padding: 0px 1px;
+}
+
+.col__display {
+  text-align: right;
+  width: 100%;
+  height: 100%;
+  margin: 1px 0px;
+  border: 2px solid black;
+}
+
+.display {
+  padding: 10px;
+  font-size: 60px;
+}
+
+.btn {
+  width: 100%;
+  height: 100px;
+  margin: 1px 0px;
+  border: 2px solid black;
+  font-size: 35px;
+
+    &__operator {
+      font-size: 50px;
+    }
+}

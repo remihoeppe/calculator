@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>My Calculator</title>
+</head>
+<header>
+
+
+</header>
+
+<body>
+
+  <!--  Main container -->
+  <div class="container calculator">
+
+    <!-- Top Box -->
+
+    <div class="row calculator__display">
+      <div class="col-12 col__display">
+        <h2 class="display">0</h2>
+      </div>
+    </div>
+
+    <div class="calculator__keys">
+    <!-- First row - 1 buttton - CLEAR -->
+
+      <div class="row">
+        <div class="col-9">
+          <button type="button" class="btn btn-light" data-action="clear">AC</button>
+        </div>
+
+        <div class="col-3">
+          <button type="button" class="btn btn-secondary btn__operator" data-action="divide">
+            &#247;
+          </button>
+        </div>
+      </div>      
+
+
+    <!-- Second row - 4 buttons [7,8,9,%] -->
+
+    <div class="row">
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">7</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">8</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">9</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-secondary btn__operator" data-action="multiply">
+          &#215;
+        </button>
+      </div>
+    </div>
+
+    <!-- Third row - 4 buttons [4,5,6,-] -->
+
+    <div class="row">
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">4</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">5</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">6</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-secondary btn__operator" data-action="add">
+          +
+        </button>
+      </div>
+    </div>
+
+      <!-- Fourth row - 4 buttons [1,2,3,+] -->
+
+    <div class="row">
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">1</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">2</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning">3</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-secondary btn__operator" data-action="substract">
+          -
+        </button>
+      </div>
+    </div>
+
+    <!-- Fifth row - 3 buttons [0,.,=] -->
+
+    <div class="row">
+      <div class="col-6">
+        <button type="button" class="btn btn-warning" id="zero-btn">0</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-warning" data-action="decimal">.</button>
+      </div>
+
+      <div class="col-3">
+        <button type="button" class="btn btn-secondary btn__operator" data-action="calculate">
+          =
+        </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End of Container -->
+
+<script src="script.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
